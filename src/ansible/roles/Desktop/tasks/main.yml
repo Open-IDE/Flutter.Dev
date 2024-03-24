@@ -2,5 +2,4 @@
   ansible.builtin.apt:
     pkg:
     - htop
-    - pipx
   become: true
