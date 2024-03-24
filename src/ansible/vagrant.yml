@@ -5,4 +5,4 @@
   roles:
     - UniInc.AptCacherNg-fix-Vagrant
     - UniInc.AptCacherNg-Client
-    - Desktop
+    - UniInc.Visual-Studio-Code
