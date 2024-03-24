@@ -1,7 +1,7 @@
 cd ansible
 ansible-galaxy install -r requirements.yml
 clear
-# ansible-galaxy role list
+ansible-galaxy role list
 cd -
 
 # Start

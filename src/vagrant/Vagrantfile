@@ -1,5 +1,6 @@
 Vagrant.configure("2") do |config|
-  config.vm.box = "Ubuntu23-Gnome-minimal"
+  config.vm.box = "Ubuntu-Desktop-minimal"
+  # config.vm.box = "Ubuntu-Gnome-minimal"
 
   config.vm.provider :libvirt do |libvirt|
     # libvirt.default_prefix = ""
