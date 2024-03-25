@@ -1,13 +1,14 @@
 - name: Vagrant Ubuntu
   hosts: all
   remote_user: vagrant
+  vars:
+    debug: false
+    android_emulator: false
 
   roles:
-    # - UniInc.AptCacherNg-fix-Vagrant
-    # - UniInc.AptCacherNg-Client
-    - UniInc.Visual-Studio-Code
-    - ansible-role-Android-sdkmanager
-    - ansible-role-VSCode-Flutter
+    - UniInc.AptCacherNg-fix-Vagrant
+    - UniInc.AptCacherNg-Client
+    - UniInc.VSCode-Flutter
 
   # Alt:
-    # - ansible-role-Android-Studio
+    # - UniInc.Android-Studio
