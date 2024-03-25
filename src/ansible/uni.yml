@@ -1,0 +1,12 @@
+- name: Flutter Dev on Ubuntu
+  hosts: localhost
+  remote_user: vagrant
+  vars:
+    debug: false
+    android_emulator: false
+
+  roles:
+    - UniInc.VSCode-Flutter
+
+  # Alt:
+    # - UniInc.Android-Studio
