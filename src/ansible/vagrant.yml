@@ -1,4 +1,4 @@
-- name: Vagrant client
+- name: Vagrant Ubuntu
   hosts: all
   remote_user: vagrant
 
@@ -6,5 +6,8 @@
     # - UniInc.AptCacherNg-fix-Vagrant
     # - UniInc.AptCacherNg-Client
     - UniInc.Visual-Studio-Code
-    - ansible-role-Android-Studio
-    # - ansible-role-VSCode-Flutter
+    - ansible-role-Android-sdkmanager
+    - ansible-role-VSCode-Flutter
+
+  # Alt:
+    # - ansible-role-Android-Studio
