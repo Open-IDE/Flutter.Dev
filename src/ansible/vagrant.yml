@@ -1,8 +1,9 @@
 - name: Vagrant client
-  hosts: all #default #, apt-cacher.test
+  hosts: all
   remote_user: vagrant
 
   roles:
-    - UniInc.AptCacherNg-fix-Vagrant
-    - UniInc.AptCacherNg-Client
-    - UniInc.Visual-Studio-Code
+    # - UniInc.AptCacherNg-fix-Vagrant
+    # - UniInc.AptCacherNg-Client
+    # - UniInc.Visual-Studio-Code
+    - ansible-role-VSCode-Flutter
