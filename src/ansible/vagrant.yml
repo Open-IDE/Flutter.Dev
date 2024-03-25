@@ -9,6 +9,8 @@
     - UniInc.AptCacherNg-fix-Vagrant
     - UniInc.AptCacherNg-Client
     - UniInc.VSCode-Flutter
+    # Debug:
+    # - ansible-role-VSCode-Flutter
 
   # Alt:
     # - UniInc.Android-Studio
