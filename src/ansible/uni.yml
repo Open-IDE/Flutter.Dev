@@ -6,6 +6,7 @@
     android_emulator: false
 
   roles:
+    - UniInc.Android-sdkmanager
     - UniInc.VSCode-Flutter
 
   # Alt:
