@@ -6,4 +6,5 @@
     # - UniInc.AptCacherNg-fix-Vagrant
     # - UniInc.AptCacherNg-Client
     # - UniInc.Visual-Studio-Code
-    - ansible-role-VSCode-Flutter
+    # - ansible-role-VSCode-Flutter
+    - ansible-role-Android-Studio
