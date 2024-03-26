@@ -8,7 +8,9 @@
   roles:
     - UniInc.AptCacherNg-fix-Vagrant
     - UniInc.AptCacherNg-Client
-    - UniInc.VSCode-Flutter
+    - UniInc.Android-sdkmanager
+    - UniInc.Flutter-SDK
+    - UniInc.Flutter-VSCode
     # Debug:
     # - ansible-role-VSCode-Flutter
 

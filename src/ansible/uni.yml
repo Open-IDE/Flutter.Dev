@@ -1,13 +1,13 @@
 - name: Flutter Dev on Ubuntu
   hosts: localhost
-  remote_user: vagrant
   vars:
     debug: false
     android_emulator: false
 
   roles:
     - UniInc.Android-sdkmanager
-    - UniInc.VSCode-Flutter
+    - UniInc.Flutter-SDK
+    - UniInc.Flutter-VSCode
     # Debug:
     # - ansible-role-VSCode-Flutter
 

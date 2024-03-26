@@ -1,18 +1,16 @@
-# from galaxy
+# from galaxy.ansible.com
+# AptCacherNG
 - name: UniInc.AptCacherNg-Server-inContainer
-
-- name: UniInc.AptCacherNg-fix-Vagrant
-
 - name: UniInc.AptCacherNg-Client
 
+# Vagrant dev environment
+- name: UniInc.AptCacherNg-fix-Vagrant
 - name: UniInc.Ubuntu-needrestart-disable
-
 - name: UniInc.Gnome-Desktop-minimal
 
+# Flutter
 - name: UniInc.Android-sdkmanager
-
+- name: UniInc.Flutter-SDK
 - name: UniInc.Visual-Studio-Code
-
-- name: UniInc.VSCode-Flutter
-
+- name: UniInc.Flutter-VSCode
 - name: UniInc.Android-Studio
