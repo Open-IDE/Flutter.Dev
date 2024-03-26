@@ -11,6 +11,8 @@
     - UniInc.Android-sdkmanager
     - UniInc.Flutter-SDK
     - UniInc.Flutter-VSCode
+    # optional
+    - Flutter-VSCode-Extensions-extra
     # Debug:
     # - ansible-role-VSCode-Flutter
 

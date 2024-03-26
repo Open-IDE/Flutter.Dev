@@ -13,4 +13,7 @@
 - name: UniInc.Flutter-SDK
 - name: UniInc.Visual-Studio-Code
 - name: UniInc.Flutter-VSCode
+
+# optional
+- name: UniInc.Flutter-VSCode-Extensions-extra
 - name: UniInc.Android-Studio
