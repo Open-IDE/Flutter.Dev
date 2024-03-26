@@ -14,6 +14,9 @@
 - name: UniInc.Visual-Studio-Code
 - name: UniInc.Flutter-VSCode
 
+# Android Emulator image
+- name: UniInc.Android-AVD
+
 # optional
 - name: UniInc.Flutter-VSCode-Extensions-extra
 - name: UniInc.Android-Studio

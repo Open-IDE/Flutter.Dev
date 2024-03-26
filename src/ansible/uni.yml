@@ -2,7 +2,8 @@
   hosts: localhost
   vars:
     debug: false
-    android_emulator: false
+    android_emulator: true
+    google_apis_playstore: true
 
   roles:
     - UniInc.Android-sdkmanager
@@ -10,6 +11,8 @@
     - UniInc.Flutter-VSCode
     # optional
     - Flutter-VSCode-Extensions-extra
+    # Android Emulator image
+    - UniInc.Android-AVD
     # Debug:
     # - ansible-role-VSCode-Flutter
 
