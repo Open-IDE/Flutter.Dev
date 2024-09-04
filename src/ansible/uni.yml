@@ -10,11 +10,11 @@
     - UniInc.Flutter-SDK
     - UniInc.Flutter-VSCode
     # optional
-    - Flutter-VSCode-Extensions-extra
+    - UniInc.Flutter-VSCode-Extensions-extra
     # Android Emulator image
     - UniInc.Android-AVD
     # Debug:
     # - ansible-role-VSCode-Flutter
 
   # Option:
-    # - UniInc.Android-Studio
+    - UniInc.Android-Studio
