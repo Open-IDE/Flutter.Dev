@@ -1,7 +1,3 @@
-ansible-galaxy install -r requirements.yml
-clear
-ansible-galaxy role list
-cd -
+ansible-galaxy install -r roles/requirements.yml
 
-# Start
-#ansible-playbook in\ container.yml
+#ansible-playbook uni.yml
