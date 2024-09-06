@@ -25,3 +25,7 @@ roles:
 # optional
 - name: UniInc.Flutter-VSCode-Extensions-extra
 - name: UniInc.Android-Studio
+
+# Android Studio SDK Components
+- name: UniInc.Flutter-Android-Studio-SDK-components
+# TODO: untested! https://github.com/Open-IDE/ansible-role-Flutter-Android-Studio-SDK-components
